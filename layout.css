@@ -1,4 +1,15 @@
 /* CSS */
 body {
-  background: url(images/lake.jpg) center center cover no-repeat fixed;
+  background: url(images/lake.jpg) center center no-repeat fixed;
+  background-size: cover;
+}
+.box {
+	opacity: 0.8;
+	margin: 20%;
+	background-color: white;
+}
+.box h1, .box p {
+	color:black;
+	font-weight:normal;
+	padding: 2%;
 }
